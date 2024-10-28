@@ -4,7 +4,7 @@ from time import sleep
 import subprocess
 import signal
 
-class fuzzTester:
+class MutationTester:
     def __init__(self, runner, muteDirectory, dumpDirectory, coreDumpDirectory):
         self.muteDirectory = muteDirectory
         self.runner = runner
