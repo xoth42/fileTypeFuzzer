@@ -1,5 +1,10 @@
 
 import os
+"""To generate mutated files
+
+Returns:
+    _type_: _description_
+"""
 class MutationGenerator:
     def __init__(self,inputFile,fileType):
         self.inputFile = inputFile
