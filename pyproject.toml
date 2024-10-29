@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "file_type_fuzzer_xoth42"
+version = "0.0.1"
+authors = [
+  { name="xoth42", email="xoth42@protonmail.com" },
+]
+description = "Generate and test mutations for file type fuzzing"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/xoth42/FileTypeFuzzer"
